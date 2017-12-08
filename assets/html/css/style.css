@@ -1,0 +1,19 @@
+.catalogue{
+    background: #fff;
+    color: #444;
+}
+.catalogue .row .bn_local.not_saved{
+    background: url(save.png)
+}
+.catalogue .row .bn_local.saved{
+    background: url(remove.png)
+}
+.catalogue .row .bn_local.processing{
+    background: url(waiting.gif)
+}
+.catalogue .row .bn_play{
+    background: url(play.png)
+}
+.catalogue .row.playing .bn_play{
+    background: url(pause.png)
+}
