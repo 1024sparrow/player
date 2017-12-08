@@ -69,8 +69,8 @@ public class MainActivity extends Activity {
             urlJsGameplay;
         */
 
+        /*
         public Proxy() {
-            /*
             urlIndex = new Uri("http://player.traliva.ru");
             urlCssStyle = new Uri("http://player.traliva.ru/css/style.css");
             urlJsPredefined = new Uri("http://player.traliva.ru/predefined.js");
@@ -82,8 +82,8 @@ public class MainActivity extends Activity {
             urlJsGameplay = new Uri("http://player.traliva.ru/gameplay.js");
             //urlIndex = new Uri();
             //
-            */
         }
+        */
 
         @Override
         public void onPageStarted(WebView view, String url, Bitmap favicon) {
@@ -122,9 +122,6 @@ public class MainActivity extends Activity {
             return super.shouldInterceptRequest(view, request);
         }
 
-        /*public WebResourceResponse shouldInterceptRequest(WebView view, WebResourceRequest request){
-            return super.shouldInterceptRequest(view, request);
-        }*/
     }
 
     /*public class JsApi {
